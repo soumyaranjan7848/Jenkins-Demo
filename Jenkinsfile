@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
+        stage('stage1') {
             steps {
-                echo "git checkout"
+                echo 'checkout'
             }
         }
 
